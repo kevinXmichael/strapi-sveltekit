@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "landingpages",
+  "info": {
+    "singularName": "landingpage",
+    "pluralName": "landingpages",
+    "displayName": "Landingpage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "pricing": {
+      "type": "component",
+      "repeatable": false,
+      "component": "pricing.pricing"
+    },
+    "customers": {
+      "type": "component",
+      "repeatable": true,
+      "component": "customer.customers"
+    }
+  }
+}
